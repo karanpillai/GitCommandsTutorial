@@ -1,3 +1,12 @@
-Setup your username and email:
-1.git config --global user.name "Karan"
-2.git config --global user.email "karanpillai721@gmail.com"
+1.Setup your username and email:
+git config --global user.name "Karan"
+git config --global user.email "karanpillai721@gmail.com"
+
+2.Initialise git
+git init
+
+3.Check status
+git status
+
+4.Add files to staging area
+git add --a
