@@ -1,0 +1,3 @@
+Setup your username and email:
+1.git config --global user.name "Karan"
+2.git config --global user.email "karanpillai721@gmail.com"
