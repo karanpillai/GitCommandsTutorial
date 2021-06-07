@@ -18,3 +18,5 @@ rm -rf .git
 touch .gitignore
 add the file which u want to ignore in that gitignore file.
 
+7.
+
