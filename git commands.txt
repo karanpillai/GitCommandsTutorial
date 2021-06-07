@@ -10,3 +10,11 @@ git status
 
 4.Add files to staging area
 git add --a
+
+5.Remove .git file which will delete complete data
+rm -rf .git
+
+6.To ignore any files:
+touch .gitignore
+add the file which u want to ignore in that gitignore file.
+
