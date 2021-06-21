@@ -26,3 +26,6 @@ git rm filename.extension
 
 9.Renaming file using git (adds to staging area as well)
 git mv originalFile.ext renameFile.ext
+
+10.To tell git ...don't track these file after adding it in git ignore
+git rm --cached filename.extension
