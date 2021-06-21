@@ -22,5 +22,7 @@ add the file which u want to ignore in that gitignore file.
 Compare staging and working directory
 
 8.Removing files through git(It will remove the file and add it to staged area)
-git -rm filename.extension
+git rm filename.extension
 
+9.Renaming file using git (adds to staging area as well)
+git mv originalFile.ext renameFile.ext
