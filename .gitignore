@@ -1,3 +1,4 @@
 git commands.txt
 *.log
-dir/
+/dir/
+static/dir
