@@ -64,6 +64,9 @@ After creating and performing changes in new branch if u want to switch....
 18.To switch between branches    (one branch to another)
 git checkout branchname
 
-dsf
+19.To merge two branches:         (part 16 of harrys videos)
+git merge branchname
 
-
+if u want to escape from vim editor:
+press ESC key and then type :wq
+ 
