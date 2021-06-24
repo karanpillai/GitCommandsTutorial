@@ -1,0 +1,69 @@
+1.Setup your username and email:
+git config --global user.name "Karan"
+git config --global user.email "karanpillai721@gmail.com"
+
+2.Initialise git
+git init
+
+3.Check status
+git status
+
+4.Add files to staging area
+git add --a/ git add .
+
+5.Remove .git file which will delete complete data
+rm -rf .git
+
+6.To ignore any files:
+touch .gitignore
+add the file which u want to ignore in that gitignore file.
+
+7.git diff
+Compare staging and working directory
+
+8.Removing files through git(It will remove the file and add it to staged area)
+git rm filename.extension
+
+9.Renaming file using git (adds to staging area as well)
+git mv originalFile.ext renameFile.ext
+
+10.To tell git ...don't track these file after adding it in git ignore
+git rm --cached filename.extension
+
+11.To check a short status(summary) of commit
+git log --stat
+
+12.To check all commits (only commit name will appear) in one page
+git log --pretty=oneline  or  git log --pretty=short/full         (full basically shows author as well as commit name)
+
+13.To check all the commit 2days/months/years previously
+git log --since=2.days/months/weeks/years
+
+14.To find hash code and author/commit name or email
+git log --pretty=format:"%h -- %ae"     an=author name,ae = author email,ce,ca
+
+15.To revert back your file to previous commit:
+git checkout -f                (For multiple files reverting back)
+git checkout -- filename.ext   (For  single files)
+
+
+                           <---------Working with remote repository------->
+Create a repo in github
+To add all code from local to  github repo:
+1.git remote add origin https://github.com/karanpillai/GitCommandsTutorial       (Type the command in local repo gitbash)
+2.git push -u origin master
+
+Also to add ssh keys watch 13 part of harrys videos
+
+
+17.To create new branch:
+git checkout -b branchname       (b stands for branch)
+
+After creating and performing changes in new branch if u want to switch....
+
+18.To switch between branches    (one branch to another)
+git checkout branchname
+
+dsf
+
+
