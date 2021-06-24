@@ -69,4 +69,12 @@ git merge branchname
 
 if u want to escape from vim editor:
 press ESC key and then type :wq
+
+20.To delete a branch:
+git branch -d branchname     (Gives error if the branch is not merged)
+git branch -D branchname     (No error and diretly deletes the branch)
+
+21.T list all different branches
+git branch
+
  
