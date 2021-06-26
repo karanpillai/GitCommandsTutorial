@@ -31,7 +31,7 @@ git mv originalFile.ext renameFile.ext
 git rm --cached filename.extension
 
 11.To check a short status(summary) of commit
-git log --stat
+git log --stat                    (To comeout from git log press q)
 
 12.To check all commits (only commit name will appear) in one page
 git log --pretty=oneline  or  git log --pretty=short/full         (full basically shows author as well as commit name)
@@ -48,6 +48,8 @@ git checkout -- filename.ext   (For  single files)
 
 
                            <---------Working with remote repository------->
+
+
 Create a repo in github
 To add all code from local to  github repo:
 1.git remote add origin https://github.com/karanpillai/GitCommandsTutorial       (Type the command in local repo gitbash)
